@@ -35,7 +35,6 @@
         note.classList.add('note');
 
         delButton.innerText = 'Delete';
-
         delButton.addEventListener('click', () => { deleteNote(delButton); });
         
         note.appendChild(delButton);
