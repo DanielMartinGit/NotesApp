@@ -35,7 +35,6 @@
         note.classList.add('note');
 
         delButton.innerText = 'Delete';
-
         delButton.addEventListener('click', () => { deleteNote(delButton); });
         
         note.appendChild(delButton);
@@ -45,12 +44,12 @@
     /* This callback is called when either the '+' or 'Enter' buttons are pressed, this creates a note,
        updates the notes list for toggling the class 'completed' or not and saves that note to the users local storage
     */ 
-    const onNoteAdded = (text) =>
+    const onNoteAdded = () =>
     {   
         if(inputText.value.length === 0)
             return;
 
-        createNote(text);
+        createNote(inputText.value);
     
         addItemToList();
 
@@ -101,6 +100,6 @@
     }
 
     // Add the callback functions to the input and '+' button elements
-    addButton.addEventListener('click', onNoteAdded(inputText.value));
+    addButton.addEventListener('click', onNoteAdded);
     inputText.addEventListener('keypress', OnNoteAddedAfterEnter);
 })();
