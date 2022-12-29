@@ -1,6 +1,5 @@
 # NotesApp
-This app was built to build on my foundation on HTML5/CSS3 and JS. 
+This app was built using my knowledge of HTML5/CSS3 and JS. 
 
-![image](https://user-images.githubusercontent.com/19360613/208527095-b6edf451-2963-495c-a6b7-0fbc911dcc4d.png)
-
-![image](https://user-images.githubusercontent.com/19360613/208527142-4f900026-547f-4d3d-90ac-a8b7993b0c8b.png)
+![image](https://user-images.githubusercontent.com/19360613/208995810-f6ffc162-dfa9-48b9-85c3-4ed7f3190697.png)
+![image](https://user-images.githubusercontent.com/19360613/208995855-b3047a1e-307d-4724-97be-35fb415a4ce9.png)
